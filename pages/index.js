@@ -43,12 +43,12 @@ export default function PaginaInicial() {
         styleSheet={{
           display: 'flex', alignItems: 'center', justifyContent: 'center',
           backgroundColor: appConfig.theme.colors.primary[100],
-          backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/11/ama-dablam-mountain-1536x864.jpg)',
+          backgroundImage: 'url(https://escolazion.com/blogz/wp-content/uploads/2019/10/blog-1140x496.jpg)',
           backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
         }}
       >
         <Box
-          styleSheet={{
+        styleSheet={{
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
@@ -56,10 +56,10 @@ export default function PaginaInicial() {
               xs: 'column',
               sm: 'row',
             },
-            width: '100%', maxWidth: '700px',
+           width: '100%', maxWidth: '700px',
             borderRadius: '5px', padding: '32px', margin: '16px',
-            boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
-            backgroundColor: appConfig.theme.colors.neutrals[700],
+         boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
+          backgroundColor: appConfig.theme.colors.neutrals[700],
           }}
         >
           {/* Formulário */}
